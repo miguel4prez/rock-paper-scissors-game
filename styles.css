@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto:wght@300&display=swap');
+
+
+body {
+    background-color: lightslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.choice-icon {
+    height: 50px;
+}
+
+
+.move-button {
+    background-color: transparent;
+    border: solid white 3px;
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.move-button:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+.move-button:active {
+    background-color: rgb(159, 159, 159);
+}
+
+.move {
+    margin-top: 50px;
+}
+
+
+.result {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.losing-color {
+    color: red;
+}
+
+.score {
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+.reset-score-button {
+    border: solid 2px white ;
+    background-color: lightslategray;
+    color: white;
+    border: solid 2px white;
+    font-size: 15px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-score-button:hover {
+    background-color:rgb(145, 165, 186) ;
+}
+
+.reset-score-button:active {
+    background-color: rgb(92, 92, 92);
+}
+
